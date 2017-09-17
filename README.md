@@ -3,7 +3,7 @@
 ## 相关网址
 
 * [expressjs-官方网址](http://expressjs.com)
-
+* [expressjs-中文官方网址](http://expressjs.com/zh-cn/)
 * [Derek Banas-YouTubeSubscribe](https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw)
 
 ## 杂
@@ -16,6 +16,24 @@
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:8080
+# serve at localhost:3000
 $ node expresstest.js
-```# Node-Express-Project
+```
+
+## mongodb Mac相关
+
+``` bash
+$ brew -v
+$ brew update
+$ brew install mongodb
+# 新建db
+$ sudo mkdir -p /data/db
+# chown db
+$ sudo chown jiajinpeng /data/db
+
+# mongo控制台
+$ mongo
+
+# 启动mongodb
+$ mongod
+```
